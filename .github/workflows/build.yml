@@ -7,7 +7,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-                app: [cashier, admin-hazem, maqlis, store-orders, courier]
+         app: [cashier, admin-hazem, maqlis, store-orders, courier]
     steps:
       - uses: actions/checkout@v4
       - run: unzip -q android-capacitor.zip
